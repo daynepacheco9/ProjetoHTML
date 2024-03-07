@@ -1,0 +1,6 @@
+sites:
+-inspiração
+https://olaolu.dev/
+
+-paleta de cor:
+https://color.adobe.com/pt/trends
