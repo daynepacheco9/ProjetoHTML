@@ -41,9 +41,10 @@ header img{
 
 .img-day{
     position: absolute;
-    width: 500px;
-    right: 200px;
-    top: 10%;
+    width: 30vw;
+    right: 12vw;
+    height: 90vh;
+    object-fit: contain;
 }
 
 .informacoes{
@@ -59,3 +60,13 @@ header img{
     display: flex;
     gap: 150px;
 }
+
+.notable-regular {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
