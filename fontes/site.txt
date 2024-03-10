@@ -27,7 +27,7 @@ verde claro:
 verde estranho:
 #6E734D
 
-perto:
+preto:
 #0D0D0D
 
 cinza:
