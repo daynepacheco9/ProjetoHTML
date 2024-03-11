@@ -12,6 +12,7 @@
     margin: 0;
 
     color: white;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -93,11 +94,35 @@ header img{
     align-items: center;
 }
 
+.sobre-mim{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;    
+    align-items:center;
+}
+.igreja{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;    
+    align-items:center;
+}
+
+
 .encher-linguica{
     display: flex;
     gap: 15vw;
 }
 
+.midias img{
+    height: 400px;
+    object-fit: contain;
+}
+
+.libras img{
+    height: 400px;
+    object-fit: contain;
+}
 
 
 .section-2{
@@ -105,15 +130,14 @@ header img{
     scroll-behavior: smooth;
 }
 
-
+.section-4{
+    background-image: url('./imagens/Textura\ pag4.png');
+}
 
 .cinzel {
     font-family: "Cinzel", serif;
 }
 
-.lovelace{
-    font-family: lovelace;
-}
 
 
 ::-webkit-scrollbar {
