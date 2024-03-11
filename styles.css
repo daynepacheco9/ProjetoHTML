@@ -6,78 +6,88 @@
 }
 
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-    color: white;
     scroll-behavior: smooth;
+    color: white;
 }
 
 html {
     height: 100%;
 }
 
-body{
-    height: 80%;  
+body {
+    height: 80%;
 
 }
 
-main, .content, section {
-    height: 100%;   
+main,
+.content,
+section {
+    height: 100%;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    z-index: 1;
+}
 
-.navegacao{
+header img {
+    height: 10vh;
+    color: white;
+}
+
+.navegacao {
     position: fixed;
     right: 10px;
     top: 50%;
     z-index: 2;
 }
 
-.navegacao ul{
+.navegacao ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.navegacao li{
+.navegacao li {
     transform: scale(2.0);
 }
 
-.navegacao li:hover{
+.navegacao li:hover {
     transform: scale(2.3);
 }
 
-.nome-titulo h1{
-    font-size: 50px;
-}
-
-header{
-    position: fixed;
-    width: 100%;
-    height: 20vh;
-    z-index: 1;
-}
-header img{
-    height: 10vh;
-    color: white;
-}
-
-.content{
+.content {
     position: relative;
     background-color: #2B401D;
     display: flex;
     justify-content: space-between;
 }
 
-.img-holder{
-    background-color: #9DA65D;
-    width: 60vh;
+.informacoes {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.img-day{
+.nome-titulo h1 {
+    font-size: 50px;
+}
+
+.cursos {
+    display: flex;
+    gap: 15vw;
+}
+
+.img-day {
     position: absolute;
     width: 500px;
     right: 9vw;
@@ -85,71 +95,117 @@ header img{
     object-fit: contain;
 }
 
-.informacoes{
-    width: 100%;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;    
-    align-items: center;
-}
-
-.sobre-mim{
-    padding-top: 80px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;    
-    align-items:center;
-}
-.igreja{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;    
-    align-items:center;
+.img-holder {
+    background-color: #9DA65D;
+    width: 60vh;
 }
 
 
-.encher-linguica{
-    display: flex;
-    gap: 15vw;
-}
-
-.midias img{
-    height: 400px;
-    object-fit: contain;
-}
-
-.libras img{
-    height: 400px;
-    object-fit: contain;
-}
-
-
-.section-2{
-    background-image: url('./imagens/textura pag2.png');
+.section-2 {
+    position: relative;
+    background-image: url('./imagens/Textura\ pag2.png');
     scroll-behavior: smooth;
 }
 
-.section-4{
-    background-image: url('./imagens/Textura\ pag4.png');
+.section-2 img {
+    height: 350px;
+    object-fit: contain;
 }
+
+.section-2 h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.section-2 h1{
+    padding-top: 200px;
+    font-size: 40px;
+}
+.section-2 img{
+    position: absolute;
+    bottom: 0;
+    height: 60vh;
+    width: 40vw;
+}
+
+.section-3 h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.sobre-mim {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.libras img {
+    height: 35vh;
+    object-fit: contain;
+}
+
+.igreja {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.midias img {
+    height: 35vh;
+    object-fit: contain;
+}
+
+
+
+.section-4 {
+    background-image: url('./imagens/Textura\ pag4.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.formulario input{
+    font-size: 20px;
+    width: 400px;
+    border-radius: 10px;
+    border-width: 1px;
+    height: 40px;
+    font-family: "Cinzel", serif;
+    color: black;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2B401D;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 10px;
+    background: linear-gradient(rgba(43, 64, 29, 1) 0%, rgba(101, 140, 73, 1) 50%, rgba(101, 140, 73, 1) 100%);
+}
+
 
 .cinzel {
     font-family: "Cinzel", serif;
 }
-
-
-
-::-webkit-scrollbar {
-   width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #2B401D;
-}
-
-
-  ::-webkit-scrollbar-thumb:hover {
-    border-radius: 10px;
-    background: linear-gradient(rgba(43,64,29,1) 0%, rgba(101,140,73,1) 50%, rgba(101,140,73,1) 100%);
-  }
