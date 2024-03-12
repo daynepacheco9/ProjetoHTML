@@ -80,11 +80,13 @@ header img {
 
 .nome-titulo h1 {
     font-size: 50px;
+    font-family: "Cinzel", serif;
 }
 
 .cursos {
     display: flex;
     gap: 15vw;
+    font-family: "Cinzel", serif;
 }
 
 .img-day {
@@ -110,29 +112,33 @@ header img {
 .section-2 img {
     height: 350px;
     object-fit: contain;
-}
-
-.section-2 h1 {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 30px;
-}
-
-.section-2 h1{
-    padding-top: 200px;
-    font-size: 40px;
-}
-.section-2 img{
     position: absolute;
     bottom: 0;
     height: 60vh;
     width: 40vw;
 }
 
+.section-2 h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+}
+
+.tabela img{
+    padding: 20px;
+    position: absolute;
+    object-fit: contain;
+    bottom: 0;
+    
+    
+}
+
 .section-3 h1 {
     text-align: center;
     padding-top: 30px;
     font-size: 40px;
+    font-family: "Cinzel", serif;
 }
 
 .sobre-mim {
@@ -141,6 +147,7 @@ header img {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    font-family: "Cinzel", serif;
 }
 
 .libras img {
@@ -153,10 +160,11 @@ header img {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    font-family: "Cinzel", serif;
 }
 
 .midias img {
-    height: 35vh;
+    height: 40vh;
     object-fit: contain;
 }
 
@@ -171,23 +179,71 @@ header img {
     gap: 50px
 }
 
-.formulario{
+.section-4 h1 {
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+}
+
+.formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    
+
 }
 
-.formulario input{
-    font-size: 20px;
+.formulario input {
+    font-size: 15px;
     width: 400px;
     border-radius: 10px;
     border-width: 1px;
     height: 40px;
     font-family: "Cinzel", serif;
     color: black;
+    border: none;
+}
+
+.formulario input::placeholder {
+    color: black;
+}
+
+.botao {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 15px;
+    font-family: "Cinzel", serif;
+    color: white;
+    background-color: #2B401D;
+    border: none;
+}
+
+.botao::valu
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.rodape h3 {
+    color: #2B401D;
+    font-family: "Cinzel", serif;
+    font-size: 15px;
 }
 
 

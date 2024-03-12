@@ -41,3 +41,8 @@ gelo:
 
 
 <link rel="shortcut icon" id="ico" type="imagex/ico" href="Design sem nome (1).ico">
+
+<img align="center" alt="Day-C" height="30" width="40" src="https://icongr.am/devicon/c-original.svg?size=128&color=currentColor">
+  <img align="center" alt="Day-python" height="30" width="40" src="https://icongr.am/devicon/python-original.svg?size=128&color=currentColor">
+  <img align="center" alt="Day-java" height="30" width="40" src="https://icongr.am/devicon/java-original.svg?size=128&color=currentColor">
+  <img align="center" alt="Day-C++" height="30" width="40" src="https://icongr.am/devicon/cplusplus-original.svg?size=128&color=currentColor">
