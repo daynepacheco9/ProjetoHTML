@@ -673,7 +673,7 @@ section {
     
     .section-2 {
         position: relative;
-        background-image: url('./imagens/Textura\ pag2.png');
+        background-image: url('./imagens/textura_pag2.png');
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -806,7 +806,7 @@ section {
     
     
     .section-4 {
-        background-image: url('./imagens/Textura\ pag4.png');
+        background-image: url('./imagens/textura_pag4.png');
         display: flex;
         justify-content: center;
         align-items: center;
